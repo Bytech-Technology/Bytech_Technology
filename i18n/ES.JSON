@@ -1,0 +1,55 @@
+{
+    "header": {
+        "nav": {
+            "inicio": "Inicio",
+            "sobre": "Sobre Nosotros",
+            "servicios": "Servicios",
+            "proyecto": "Proyectos",
+            "resena": "Reseñas",
+            "contacto": "Contacto"
+        }
+    },
+    "hero": {
+        "title": "¡Listos para conquistar el futuro tecnológico y expandir tus horizontes!",
+        "scroll_down": "desplazarse hacia abajo"
+    },
+    "content_description": {
+        "text": "Nos comprometemos a impulsar el éxito de tu negocio en el mundo digital. Con un equipo experto, ofrecemos soluciones personalizadas en desarrollo web, consultoría y soporte técnico. Nuestro enfoque centrado en el cliente y nuestra pasión por la innovación nos distinguen.",
+        "join_us": "¡Únete a nosotros y lleva tu negocio al siguiente nivel con Bytech Company!"
+    },
+    "content_services": {
+        "title": "Potencia tu Experiencia Digital con Nuestro Catálogo de Oportunidades",
+        "services": [
+            {
+                "title": "Programacion y Diseño Web",
+                "description": "Nuestro servicio de programación web se especializa en el desarrollo de soluciones digitales personalizadas para satisfacer las necesidades específicas de nuestros clientes. Utilizando las últimas tecnologías y prácticas de desarrollo web, creamos sitios web dinámicos, interactivos y visualmente atractivos. Desde páginas web corporativas hasta complejas aplicaciones web, nuestro equipo de desarrolladores trabaja en estrecha colaboración con los clientes para entender sus objetivos y ofrecer soluciones que no solo cumplan, sino que superen sus expectativas. Nos comprometemos a proporcionar productos de alta calidad que impulsen la presencia en línea de nuestros clientes y mejoren su experiencia digital.",
+                "img": "page_web.webp"
+            },
+            {
+                "title": "Tecnicos Informaticos",
+                "description": "Nuestro servicio técnico informático está diseñado para brindar relacionados con la tecnología dentro de tu empresa. Desde la asistencia integral en la gestión y resolución de problemas configuración y mantenimiento de redes informáticas hasta la resolución de problemas de hardware y software, nuestro equipo de técnicos altamente capacitados está listo para ayudarte en cada paso del camino. Nos enfocamos en ofrecer soluciones rápidas y eficientes para minimizar el tiempo de inactividad y garantizar el funcionamiento óptimo de tus sistemas informáticos. Ya sea que necesites soporte remoto o en sitio, estamos aquí para proporcionarte la asistencia técnica que necesitas para mantener tu negocio en marcha sin problemas.",
+                "img": "tecnico.webp"
+            },
+            {
+                "title": "Mantenimiento tecnico",
+                "description": "Nuestro servicio de mantenimiento técnico está diseñado para garantizar el rendimiento y la confiabilidad de tus equipos informáticos a lo largo del tiempo. Realizamos un enfoque proactivo hacia el mantenimiento, implementando medidas preventivas para identificar y abordar posibles problemas antes de que se conviertan en grandes inconvenientes. Desde la limpieza y optimización de sistemas hasta la actualización de software y hardware, nos encargamos de todos los aspectos del mantenimiento técnico para que puedas concentrarte en lo que realmente importa: hacer crecer tu negocio. Con nuestro equipo experimentado y nuestros procesos bien establecidos, puedes estar seguro de que tus equipos estarán en las mejores manos y funcionarán de manera óptima en todo momento",
+                "img": "mantenimiento.webp"
+            }
+        ]
+    },
+    "content_proyect":{
+        "title":"Nuestro Trayectoria Laboral",
+        "description":"Explora nuestra selección de proyectos destacados que representan la calidad y la diversidad de nuestro trabajo. Desde sitios web dinámicos hasta aplicaciones móviles innovadoras, cada proyecto demuestra nuestra dedicación a la excelencia y nuestra capacidad para cumplir con las necesidades únicas de nuestros clientes."
+    },
+    "content_reviews":{
+        "title": "Lo que dice nuestros clientes"
+    },
+    "content_contact":{
+        "title":"¿Listo para comenzar tu próximo proyecto digital?",
+        "description":"¡Estamos aquí para ayudar! Ponte en contacto con nosotros hoy mismo para discutir tus necesidades digitales. Ya sea que estés buscando crear un nuevo sitio web, desarrollar una aplicación móvil o simplemente necesites asesoramiento, nuestro equipo experto está listo para brindarte soluciones personalizadas.",
+        "inputName":"nombre",
+        "inputEmail":"Correo Electronico",
+        "textArea":"Escribe tu mensaje aqui",
+        "btnSubmit":"Enviar ahora"
+    }
+}

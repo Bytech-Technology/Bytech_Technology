@@ -1,0 +1,53 @@
+<div class="content_reviews" id="reseña">
+    <div class="reviews_title">
+        <h2 data-aos="fade-up"><%= lang.content_reviews.title %></h2>
+    </div>
+    <div class="reviews_clients">
+        <div class="client">
+            <span id="count_client" data-aos="fade-right"></span>
+            <p id="client_text" data-aos="fade-left"></p>
+            <div class="client_entity" data-aos="fade-left">
+                <img src="/" alt="" id="img_client">
+                <div class="client_content">
+                    <span id="client_name"></span>
+                    <span id="client_company"></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn_clients">
+            <button aria-label="boton de anterior cliente" name="btnPrevious" id="previous_client" ><i class='bx bxs-chevrons-left'></i></button>
+            <button aria-label="boton de siguiente cliente" name="btnNext" id="next_client" ><i class='bx bxs-chevrons-right'></i></button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const clients = <%- JSON.stringify(clients) %>;
+    let currentIndex = 0;
+    const clientCount = document.getElementById('count_client');
+    const clientText = document.getElementById('client_text');
+    const clientName = document.getElementById('client_name');
+    const clientCompany = document.getElementById('client_company');
+    const clientImg = document.getElementById('img_client');
+
+    function showClient(index) {
+        const client = clients[index];
+        clientCount.textContent = client.id_client;
+        clientText.textContent = '"' + client.client_text + '"';
+        clientName.textContent = client.client_name;
+        clientCompany.textContent = client.client_company;
+        clientImg.src = client.client_img;
+    }
+
+    showClient(currentIndex);
+
+    document.getElementById('previous_client').addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + clients.length) % clients.length;
+        showClient(currentIndex);
+    });
+
+    document.getElementById('next_client').addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % clients.length;
+        showClient(currentIndex);
+    });
+</script>

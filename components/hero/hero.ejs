@@ -1,0 +1,57 @@
+<header>
+    <div class="logo">
+        <img src="/logo.webp" alt="Logo Bytech Company">
+        <h1>Bytech Company</h1>
+    </div>
+    <nav class="navegation">
+        <a href="#inicio" class="active">
+            <%= lang.header.nav.inicio %>
+        </a>
+        <a href="#sobre">
+            <%= lang.header.nav.sobre %>
+        </a>
+        <a href="#servicios">
+            <%= lang.header.nav.servicios %>
+        </a>
+        <a href="#proyecto">
+            <%= lang.header.nav.proyecto %>
+        </a>
+        <a href="#reseña">
+            <%= lang.header.nav.resena %>
+        </a>
+        <a href="#contacto">
+            <%= lang.header.nav.contacto %>
+        </a>
+    </nav>
+    <% 
+    const languages = [
+        { code: 'ES', name: 'españa.png' },
+        { code: 'EN', name: 'inglaterra.png' },
+        { code: 'FR', name: 'francia.png' },
+        { code: 'CHN', name: 'china.png' },
+        { code: 'JP', name: 'japon.png' }
+    ];
+%>
+<ul>
+    <% 
+    const currentLanguage = languages.find(lang => lang.code === idioma);
+    const sortedLanguages = [currentLanguage, ...languages.filter(lang => lang.code !== idioma)];
+    %>
+
+    <% sortedLanguages.forEach(language => { %>
+        <li class="<%= language.code === idioma ? 'active' : '' %>">
+            <a href="/<%= language.code %>"><img src="/<%= language.name %>" alt="<%= language.code %>"></a>
+        </li>
+    <% }); %>
+</ul>
+</header>
+<div class="content_hero" id="inicio">
+    <div class="title">
+        <h2>
+            <%= lang.hero.title %>
+        </h2>
+        <span>
+            <%= lang.hero.scroll_down %> <i class='bx bx-chevrons-down'></i>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+{
+    "header": {
+        "nav": {
+            "inicio": "Home",
+            "sobre": "About Us",
+            "servicios": "Services",
+            "proyecto": "Projects",
+            "resena": "Reviews",
+            "contacto": "Contact"
+        }
+    },
+    "hero": {
+        "title": "Ready to conquer the technological future and expand your horizons!",
+        "scroll_down": "scroll down"
+    },
+    "content_description": {
+        "text": "We are committed to driving your business success in the digital world. With an expert team, we offer customized solutions in web development, consulting, and technical support. Our customer-focused approach and passion for innovation set us apart.",
+        "join_us": "Join us and take your business to the next level with Bytech Company!"
+    },
+    "content_services": {
+        "title": "Empower Your Digital Experience with Our Catalog of Opportunities",
+        "services": [
+            {
+                "title": "Web Programming and Design",
+                "description": "Our web programming service specializes in developing custom digital solutions to meet the specific needs of our clients. Using the latest web development technologies and practices, we create dynamic, interactive, and visually appealing websites. From corporate web pages to complex web applications, our team of developers works closely with clients to understand their goals and deliver solutions that not only meet but exceed their expectations. We are committed to providing high-quality products that enhance our clients' online presence and improve their digital experience.",
+                "img": "page_web.webp" 
+            },
+            {
+                "title": "IT Technicians",
+                "description": "Our IT technical service is designed to provide support related to technology within your company. From comprehensive assistance in managing and resolving problems, configuring, and maintaining computer networks to resolving hardware and software issues, our team of highly trained technicians is ready to assist you every step of the way. We focus on offering quick and efficient solutions to minimize downtime and ensure the optimal operation of your computer systems. Whether you need remote or on-site support, we are here to provide you with the technical assistance you need to keep your business running smoothly.",
+                "img": "tecnico.webp"
+            },
+            {
+                "title": "Technical Maintenance",
+                "description": "Our technical maintenance service is designed to ensure the performance and reliability of your computer equipment over time. We take a proactive approach to maintenance, implementing preventive measures to identify and address potential issues before they become major inconveniences. From cleaning and optimizing systems to updating software and hardware, we take care of all aspects of technical maintenance so you can focus on what really matters: growing your business. With our experienced team and well-established processes, you can be confident that your equipment will be in the best hands and will operate optimally at all times.",
+                "img": "mantenimiento.webp"
+            }
+        ]
+    },
+    "content_proyect":{
+        "title":"Our Work History",
+        "description":"Explore our selection of featured projects that represent the quality and diversity of our work. From dynamic websites to innovative mobile applications, each project demonstrates our dedication to excellence and our ability to meet the unique needs of our clients."
+    },
+    "content_reviews":{
+        "title": "WHAT OUR CLIENTS SAY"
+    },
+    "content_contact":{
+        "title":"Ready to Start Your Next Digital Project?",
+        "description":"We are here to help! Contact us today to discuss your digital needs. Whether you are looking to create a new website, develop a mobile application, or simply need advice, our expert team is ready to provide you with customized solutions.",
+        "inputName":"name",
+        "inputEmail":"Email",
+        "textArea":"Write your message here",
+        "btnSubmit":"Send Now"
+    }
+}

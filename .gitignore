@@ -1,0 +1,21 @@
+# Node.js dependencies
+/node_modules
+
+# Configuración de npm
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Dependencias de desarrollo
+/.pnp
+.pnp.js
+
+# Archivos de configuración locales
+.env
+# Dependencias del sistema
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Visual Studio Code
+.vscode/

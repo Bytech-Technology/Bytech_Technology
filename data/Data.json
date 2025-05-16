@@ -1,0 +1,23 @@
+[
+    {
+        "id_client": "01",
+        "client_text" : "me encanto la disponibilidad, nos dieron un seguimiento increible, su trabajo muy profecional y bien administrado, no podemos quejarnos, estamos encantados con ellos",
+        "client_img":"logo_cardozo.webp",
+        "client_name":"Alejando Cardozo",
+        "client_company":"Aislaciones Termicas Cardozo"
+    },
+    {
+        "id_client": "02",
+        "client_text" : "¡Excelente servicio! Realmente quedamos impresionados con la atención y profesionalismo de todo el equipo. Nos ayudaron a resolver nuestro problema de manera rápida y eficiente. ¡Altamente recomendado!",
+        "client_img":"logo.webp",
+        "client_name":"María García",
+        "client_company":"Soluciones Innovadoras"
+    },
+    {
+        "id_client": "03",
+        "client_text" : "No podríamos estar más satisfechos con el trabajo realizado. Desde el primer contacto hasta la entrega final, el equipo demostró un nivel excepcional de dedicación y habilidad. Sin duda volveremos a trabajar con ellos en el futuro",
+        "client_img":"page_web.webp",
+        "client_name":"Juan Pérez",
+        "client_company":"Servicios Integrales"
+    }
+]
