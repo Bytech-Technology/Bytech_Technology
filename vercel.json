@@ -9,7 +9,8 @@
           "views/**",
           "data/**",
           "i18n/**",
-          "assets/**"
+          "assets/**",
+          "components/**"
         ]
       }
     }
