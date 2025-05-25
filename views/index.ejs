@@ -4,45 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Bytech Company es una empresa líder en tecnología y desarrollo de software. Ofrecemos soluciones personalizadas en desarrollo web, consultoría y soporte técnico. Conoce nuestros servicios, explora nuestros proyectos y contáctanos para iniciar tu próximo proyecto digital.">
-    <meta name="keywords"
-        content="Bytech Company, tecnología, desarrollo de software, desarrollo web, consultoría, soporte técnico, proyectos, clientes, reseñas, contacto, página web, aplicación móvil">
+    <meta name="description" content="Bytech Company es una empresa líder en tecnología y desarrollo de software. Ofrecemos soluciones personalizadas en desarrollo web, consultoría y soporte técnico. Conoce nuestros servicios, explora nuestros proyectos y contáctanos para iniciar tu próximo proyecto digital.">
+    <meta name="keywords" content="Bytech Company, tecnología, desarrollo de software, desarrollo web, consultoría, soporte técnico, proyectos, clientes, reseñas, contacto, página web, aplicación móvil">
     <meta name="author" content="Bytech Company">
     <meta name="robots" content="index, follow">
 
     <meta property="og:title" content="Bytech Company">
-    <meta property="og:description"
-        content="Bytech Company es una empresa líder en tecnología y desarrollo de software. Ofrecemos soluciones personalizadas en desarrollo web, consultoría y soporte técnico. Conoce nuestros servicios, explora nuestros proyectos y contáctanos para iniciar tu próximo proyecto digital.">
+    <meta property="og:description" content="Bytech Company es una empresa líder en tecnología y desarrollo de software. Ofrecemos soluciones personalizadas en desarrollo web, consultoría y soporte técnico. Conoce nuestros servicios, explora nuestros proyectos y contáctanos para iniciar tu próximo proyecto digital.">
     <meta property="og:image" content="/logo.webp">
     <meta property="og:url" content="https://bytechcompany.up.railway.app">
     <meta property="og:type" content="website">
 
     <meta name="twitter:title" content="Bytech Company">
-    <meta name="twitter:description"
-        content="Bytech Company es una empresa líder en tecnología y desarrollo de software. Ofrecemos soluciones personalizadas en desarrollo web, consultoría y soporte técnico. Conoce nuestros servicios, explora nuestros proyectos y contáctanos para iniciar tu próximo proyecto digital.">
+    <meta name="twitter:description" content="Bytech Company es una empresa líder en tecnología y desarrollo de software. Ofrecemos soluciones personalizadas en desarrollo web, consultoría y soporte técnico. Conoce nuestros servicios, explora nuestros proyectos y contáctanos para iniciar tu próximo proyecto digital.">
     <meta name="twitter:image" content="/logo.webp">
+    
+    <!-- favicon -->
     <link rel="shortcut icon" href="/logo.webp" type="image/x-icon">
+    
+    <!-- styles -->
     <link rel="stylesheet" href="/styles.css">
+    
+    <!-- links external -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Bytech Company</title>
 </head>
 
 <body>
     <%- include('../components/hero/hero') %>
-        <%- include('../components/description/description') %>
-            <%- include('../components/services/services') %>
-                <%- include('../components/proyects/proyect') %>
-                    <%- include('../components/reviews/reviews') %>
-                        <%- include('../components/contact/contact') %>
+    <%- include('../components/description/description') %>
+    <%- include('../components/services/services') %>
+    <%- include('../components/proyects/proyect') %>
+    <%- include('../components/reviews/reviews') %>
+    <%- include('../components/contact/contact') %>
 
-                            <script src="/active.js"></script>
-                            <script>
-                                AOS.init();
-                            </script>
+    <script src="/active.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
