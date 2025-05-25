@@ -10,7 +10,8 @@
           "data/**",
           "i18n/**",
           "assets/**",
-          "components/**"
+          "components/**",
+          "public/**"
         ]
       }
     }
