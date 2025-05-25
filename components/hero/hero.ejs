@@ -2,7 +2,6 @@
     <div class="logo">
         <a href="/" style="text-decoration: none;color: white;">
             <img src="/logo.webp" alt="Logo Bytech Technology">
-            <h2>Bytech Technology</h2>
         </a>
     </div>
     <nav class="navegation">
@@ -25,7 +24,7 @@
             <%= lang.header.nav.contacto %>
         </a>
     </nav>
-    <% 
+    <%
     const languages = [
         { code: 'ES', name: 'españa.png' },
         { code: 'EN', name: 'inglaterra.png' },
@@ -35,7 +34,7 @@
     ];
 %>
 <ul>
-    <% 
+    <%
     const currentLanguage = languages.find(lang => lang.code === idioma);
     const sortedLanguages = [currentLanguage, ...languages.filter(lang => lang.code !== idioma)];
     %>
