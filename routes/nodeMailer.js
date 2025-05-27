@@ -17,7 +17,7 @@ function submitContact(req, res) {
     // Configura el correo electrónico a enviar
     const mailOptions = {
         from: process.env.EMAIL_USER,
-        to: process.env.SEND_USER,
+        to: process.env.EMAIL_USER,
         subject: 'Nuevo mensaje de contacto',
         html: `
             <div style="background:black; height: 100%;padding:1rem 2rem;">
@@ -25,7 +25,7 @@ function submitContact(req, res) {
                 <p style="color: #fff; text-align: center;">El usuario <span style="color: #AE60E6;">${name} </span> con correo ${email}, quiere ponerse en contacto con nosotros</p>
                 <p style="color: #fff;  text-align: center;"><span style="color: #AE60E6;">asunto:</span> ${message}</p>
                 <div style="magin:1rem auto;padding:3rem 0;">
-                    <span style="color:#7c7a7a;text-align: center;display:block;">© 2024 Bytech Company</span>
+                    <span style="color:#7c7a7a;text-align: center;display:block;">© 2025 Bytech Company</span>
                 </div>
             </div>
         `

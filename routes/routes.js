@@ -24,7 +24,6 @@ function loadData(callback) {
 // Función para cargar archivos JSON de idioma
 const loadLanguage = (lang) => {
     const filePath = path.join(__dirname, '..', 'i18n', `${lang}.JSON`);
-    console.log(`Cargando archivo de idioma desde: ${filePath}`);
     try {
         if (fs.existsSync(filePath)) {
             return JSON.parse(fs.readFileSync(filePath, 'utf8'));
