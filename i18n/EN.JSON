@@ -22,18 +22,21 @@
         "services": [
             {
                 "title": "Web Programming and Design",
-                "description": "Our web programming service specializes in developing custom digital solutions to meet the specific needs of our clients. Using the latest web development technologies and practices, we create dynamic, interactive, and visually appealing websites. From corporate web pages to complex web applications, our team of developers works closely with clients to understand their goals and deliver solutions that not only meet but exceed their expectations. We are committed to providing high-quality products that enhance our clients' online presence and improve their digital experience.",
-                "img": "page_web.webp" 
+                "description": "Custom web development with modern technologies.",
+                "img": "page_web.webp",
+                "icon": "code"
             },
             {
                 "title": "IT Technicians",
-                "description": "Our IT technical service is designed to provide support related to technology within your company. From comprehensive assistance in managing and resolving problems, configuring, and maintaining computer networks to resolving hardware and software issues, our team of highly trained technicians is ready to assist you every step of the way. We focus on offering quick and efficient solutions to minimize downtime and ensure the optimal operation of your computer systems. Whether you need remote or on-site support, we are here to provide you with the technical assistance you need to keep your business running smoothly.",
-                "img": "tecnico.webp"
+                "description": "Technical support to keep your business running.",
+                "img": "tecnico.webp",
+                "icon": "cog"
             },
             {
                 "title": "Technical Maintenance",
-                "description": "Our technical maintenance service is designed to ensure the performance and reliability of your computer equipment over time. We take a proactive approach to maintenance, implementing preventive measures to identify and address potential issues before they become major inconveniences. From cleaning and optimizing systems to updating software and hardware, we take care of all aspects of technical maintenance so you can focus on what really matters: growing your business. With our experienced team and well-established processes, you can be confident that your equipment will be in the best hands and will operate optimally at all times.",
-                "img": "mantenimiento.webp"
+                "description": "Preventive maintenance for your IT equipment.",
+                "img": "mantenimiento.webp",
+                "icon": "spanner"
             }
         ]
     },

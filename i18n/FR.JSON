@@ -22,18 +22,21 @@
         "services": [
             {
                 "title": "Développement et conception Web",
-                "description": "Notre service de programmation web se spécialise dans le développement de solutions numériques personnalisées pour répondre aux besoins spécifiques de nos clients. En utilisant les dernières technologies et pratiques de développement web, nous créons des sites web dynamiques, interactifs et visuellement attrayants. De la page web d'entreprise aux applications web complexes, notre équipe de développeurs travaille en étroite collaboration avec les clients pour comprendre leurs objectifs et offrir des solutions qui non seulement répondent, mais dépassent leurs attentes. Nous nous engageons à fournir des produits de haute qualité qui améliorent la présence en ligne de nos clients et améliorent leur expérience numérique.",
-                "img": "page_web.webp"
+                "description": "Développement web personnalisé avec des technologies modernes.",
+                "img": "page_web.webp",
+                "icon": "code"
             },
             {
                 "title": "Techniciens informatiques",
-                "description": "Notre service technique informatique est conçu pour fournir un support lié à la technologie au sein de votre entreprise. De l'assistance complète dans la gestion et la résolution de problèmes, à la configuration et à la maintenance des réseaux informatiques en passant par la résolution de problèmes matériels et logiciels, notre équipe de techniciens hautement qualifiés est prête à vous aider à chaque étape du processus. Nous nous concentrons sur l'offre de solutions rapides et efficaces pour minimiser les temps d'arrêt et garantir le fonctionnement optimal de vos systèmes informatiques. Que vous ayez besoin d'un support à distance ou sur site, nous sommes là pour vous fournir l'assistance technique dont vous avez besoin pour que votre entreprise fonctionne sans heurts.",
-                "img": "tecnico.webp"
+                "description": "Support technique pour assurer le bon fonctionnement de votre entreprises.",
+                "img": "tecnico.webp",
+                "icon": "cog"
             },
             {
                 "title": "Maintenance technique",
-                "description": "Notre service de maintenance technique est conçu pour garantir les performances et la fiabilité de votre équipement informatique dans le temps. Nous adoptons une approche proactive de la maintenance, en mettant en œuvre des mesures préventives pour identifier et résoudre les problèmes potentiels avant qu'ils ne deviennent des inconvénients majeurs. De l'entretien et de l'optimisation des systèmes à la mise à jour des logiciels et du matériel, nous prenons en charge tous les aspects de la maintenance technique afin que vous puissiez vous concentrer sur ce qui compte vraiment : faire croître votre entreprise. Avec notre équipe expérimentée et nos processus bien établis, vous pouvez être sûr que votre équipement sera entre de bonnes mains et fonctionnera de manière optimale en tout temps.",
-                "img": "mantenimiento.webp"
+                "description": "Maintenance préventive pour vos équipements informatiques.",
+                "img": "mantenimiento.webp",
+                "icon": "spanner"
             }
         ]
     },
