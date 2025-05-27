@@ -1,15 +1,14 @@
 <div class="content_services" id="servicios">
     <h2 data-aos="fade-up"><%= lang.content_services.title %></h2>
-    
-    <% lang.content_services.services.forEach(services => { %>
-     <div class="services_group">
-        <div class="services_group_text" data-aos="fade-right" data-aos-duration="1000">
-            <h2><%= services.title %></h2>
-            <p><%= services.description %></p>
-        </div>
-        <div class="services_group_img"data-aos="fade-left" data-aos-duration="1000">
-            <img src="/<%= services.img %>" alt="<%= services.title %>">
-        </div>
-     </div>
-    <% }) %>
+    <div class="content_services_group">
+        <% lang.content_services.services.forEach(services => { %>
+            <div class="services_group" style="background-image: url(/<%=services.img%>);background-repeat: no-repeat;background-size: cover;background-position: center;">
+                <img src="/<%= services.icon %>.png">
+                <div class="services_group_text">
+                    <h2><%= services.title %></h2>
+                    <p><%= services.description %></p>
+                </div>
+            </div>
+        <% }) %>
+    </div>
 </div>
