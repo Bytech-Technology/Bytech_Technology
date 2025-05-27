@@ -14,6 +14,8 @@ app.use(express.static('assets/'));
 
 // Importar las rutas
 require('./routes/routes')(app);
-
+app.listen(PORT, () => {
+    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+});
 // Exportar la app para Vercel
 module.exports = app;
