@@ -15,14 +15,18 @@
             </div>
         </div>
         <div class="btn_clients">
-            <button aria-label="boton de anterior cliente" name="btnPrevious" id="previous_client" ><i class='bx bxs-chevrons-left'></i></button>
-            <button aria-label="boton de siguiente cliente" name="btnNext" id="next_client" ><i class='bx bxs-chevrons-right'></i></button>
+            <button aria-label="boton de anterior cliente" name="btnPrevious" id="previous_client" ><img src="icons/reviews/chevron-left.svg" alt="chevron-left icon"></button>
+            <button aria-label="boton de siguiente cliente" name="btnNext" id="next_client" ><img src="icons/reviews/chevron-right.svg" alt="chevron-right icon"></button>
         </div>
     </div>
 </div>
 
+<!-- Datos en JSON, no ejecutables -->
+<script id="clients-data" type="application/json">
+  <%- JSON.stringify(clients) %>
+</script>
 <script>
-    const clients = <%- JSON.stringify(clients) %>;
+    const clients = JSON.parse(document.getElementById("clients-data").textContent);
     let currentIndex = 0;
     const clientCount = document.getElementById('count_client');
     const clientText = document.getElementById('client_text');
