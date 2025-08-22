@@ -26,11 +26,11 @@
     </nav>
     <%
     const languages = [
-        { code: 'ES', name: 'icons/es.svg' },
-        { code: 'EN', name: 'icons/gb-eng.svg' },
-        { code: 'FR', name: 'icons/fr.svg' },
-        { code: 'CHN', name: 'icons/cn.svg' },
-        { code: 'JP', name: 'icons/jp.svg' }
+        { code: 'ES', name: 'icons/flags/es.svg' },
+        { code: 'EN', name: 'icons/flags/gb-eng.svg' },
+        { code: 'FR', name: 'icons/flags/fr.svg' },
+        { code: 'CHN', name: 'icons/flags/cn.svg' },
+        { code: 'JP', name: 'icons/flags/jp.svg' }
     ];
 %>
 <ul>
@@ -52,7 +52,7 @@
             <%= lang.hero.title %>
         </h2>
         <span>
-            <%= lang.hero.scroll_down %> <i class='bx bx-chevrons-down'></i>
+            <%= lang.hero.scroll_down %><img src="icons/chevron-down.svg">
         </span>
     </div>
 </div>
